@@ -44,13 +44,7 @@
     <ClCompile Include="generatedfiles\release\moc_RawFormatWidget.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_YTS_Raw.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
     <ClCompile Include="generatedfiles\debug\moc_RawFormatWidget.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_YTS_Raw.cpp">
       <Filter>Generated Files\Debug</Filter>
     </ClCompile>
   </ItemGroup>
@@ -58,19 +52,16 @@
     <ClInclude Include="..\YT_Interface.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_RawFormatWidget.h">
-      <Filter>Generated Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="RawFormatWidget.h">
+    <QtMoc Include="RawFormatWidget.h">
       <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="YTS_Raw.h">
+    </QtMoc>
+    <QtMoc Include="YTS_Raw.h">
       <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="RawFormatWidget.ui">
+    </QtMoc>
+    <QtUic Include="RawFormatWidget.ui">
       <Filter>Form Files</Filter>
-    </CustomBuild>
+    </QtUic>
   </ItemGroup>
 </Project>

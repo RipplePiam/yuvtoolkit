@@ -37,13 +37,7 @@
     <ClCompile Include="generatedfiles\release\moc_D3DWidget.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_YTR_D3D.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
     <ClCompile Include="generatedfiles\debug\moc_D3DWidget.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_YTR_D3D.cpp">
       <Filter>Generated Files\Debug</Filter>
     </ClCompile>
     <ClCompile Include="D3DWidget.cpp">
@@ -56,11 +50,11 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D3DWidget.h">
+    <QtMoc Include="D3DWidget.h">
       <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="YTR_D3D.h">
+    </QtMoc>
+    <QtMoc Include="YTR_D3D.h">
       <Filter>Header Files</Filter>
-    </CustomBuild>
+    </QtMoc>
   </ItemGroup>
 </Project>
