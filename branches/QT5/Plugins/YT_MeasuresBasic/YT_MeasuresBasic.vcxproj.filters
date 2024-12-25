@@ -51,11 +51,11 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="YT_MeasuresBasic.h">
+    <QtMoc Include="YT_MeasuresBasic.h">
       <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="YT_MeasuresBasicPlugin.h">
+    </QtMoc>
+    <QtMoc Include="YT_MeasuresBasicPlugin.h">
       <Filter>Header Files</Filter>
-    </CustomBuild>
+    </QtMoc>
   </ItemGroup>
 </Project>

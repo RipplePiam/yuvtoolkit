@@ -70,9 +70,6 @@
     <ClCompile Include="YT_InterfaceImpl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GeneratedFiles\qrc_YUVToolkit.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
     <ClCompile Include="generatedfiles\release\moc_ClickableSlider.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
@@ -139,15 +136,6 @@
     <ClCompile Include="generatedfiles\debug\moc_YT_InterfaceImpl.cpp">
       <Filter>Generated Files\Debug</Filter>
     </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_ProcessThread.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_ProcessThread.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Template\moc_ProcessThread.cpp">
-      <Filter>Generated Files\Template</Filter>
-    </ClCompile>
     <ClCompile Include="RenderThread.cpp">
       <Filter>Threads</Filter>
     </ClCompile>
@@ -160,26 +148,8 @@
     <ClCompile Include="Options.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_Options.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_Options.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Template\moc_Options.cpp">
-      <Filter>Generated Files\Template</Filter>
-    </ClCompile>
     <ClCompile Include="YTApplication.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_YTApplication.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_YTApplication.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Template\moc_YTApplication.cpp">
-      <Filter>Generated Files\Template</Filter>
     </ClCompile>
     <ClCompile Include="ColorMap.cpp">
       <Filter>Source Files</Filter>
@@ -187,35 +157,8 @@
     <ClCompile Include="TextFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_TextFile.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_TextFile.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Template\moc_TextFile.cpp">
-      <Filter>Generated Files\Template</Filter>
-    </ClCompile>
     <ClCompile Include="ScoreWindow.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_ScoreWindow.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_ScoreWindow.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Template\moc_ScoreWindow.cpp">
-      <Filter>Generated Files\Template</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_NameInput.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_NameInput.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Template\moc_NameInput.cpp">
-      <Filter>Generated Files\Template</Filter>
     </ClCompile>
     <ClCompile Include="NameInput.cpp">
       <Filter>Source Files</Filter>
@@ -226,9 +169,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="generatedfiles\ui_MainWindow.h">
-      <Filter>Generated Files</Filter>
-    </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_Options.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
     <ClInclude Include="Settings.h">
@@ -243,12 +183,6 @@
     <ClInclude Include="..\Plugins\YT_Interface.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_ScoreWindow.h">
-      <Filter>Generated Files</Filter>
-    </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_NameInput.h">
-      <Filter>Generated Files</Filter>
-    </ClInclude>
     <ClInclude Include="BuildControl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -261,71 +195,71 @@
     <ResourceCompile Include="YUVToolkit.rc" />
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="UI\ClickableSlider.h">
+    <QtMoc Include="UI\ClickableSlider.h">
       <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="Layout.h">
+    </QtMoc>
+    <QtMoc Include="Layout.h">
       <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="MainWindow.h">
+    </QtMoc>
+    <QtMoc Include="MainWindow.h">
       <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="MeasureWindow.h">
+    </QtMoc>
+    <QtMoc Include="MeasureWindow.h">
       <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="RendererWidget.h">
+    </QtMoc>
+    <QtMoc Include="RendererWidget.h">
       <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="UI\TextLabel.h">
+    </QtMoc>
+    <QtMoc Include="UI\TextLabel.h">
       <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="VideoView.h">
+    </QtMoc>
+    <QtMoc Include="VideoView.h">
       <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="VideoViewList.h">
+    </QtMoc>
+    <QtMoc Include="VideoViewList.h">
       <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="YT_InterfaceImpl.h">
+    </QtMoc>
+    <QtMoc Include="YT_InterfaceImpl.h">
       <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="MainWindow.ui">
+    </QtMoc>
+    <QtUic Include="MainWindow.ui">
       <Filter>Form Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="YUVToolkit.qrc">
+    </QtUic>
+    <QtRcc Include="YUVToolkit.qrc">
       <Filter>Resource Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="ProcessThread.h">
+    </QtRcc>
+    <QtMoc Include="ProcessThread.h">
       <Filter>Threads</Filter>
-    </CustomBuild>
-    <CustomBuild Include="RenderThread.h">
+    </QtMoc>
+    <QtMoc Include="RenderThread.h">
       <Filter>Threads</Filter>
-    </CustomBuild>
-    <CustomBuild Include="SourceThread.h">
+    </QtMoc>
+    <QtMoc Include="SourceThread.h">
       <Filter>Threads</Filter>
-    </CustomBuild>
-    <CustomBuild Include="Options.ui">
+    </QtMoc>
+    <QtUic Include="Options.ui">
       <Filter>Form Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="Options.h">
+    </QtUic>
+    <QtMoc Include="Options.h">
       <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="YTApplication.h">
+    </QtMoc>
+    <QtMoc Include="YTApplication.h">
       <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="TextFile.h">
+    </QtMoc>
+    <QtMoc Include="TextFile.h">
       <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="ScoreWindow.ui">
+    </QtMoc>
+    <QtUic Include="ScoreWindow.ui">
       <Filter>Form Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="ScoreWindow.h">
+    </QtUic>
+    <QtMoc Include="ScoreWindow.h">
       <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="NameInput.ui">
+    </QtMoc>
+    <QtUic Include="NameInput.ui">
       <Filter>Form Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="NameInput.h">
+    </QtUic>
+    <QtMoc Include="NameInput.h">
       <Filter>Header Files</Filter>
-    </CustomBuild>
+    </QtMoc>
   </ItemGroup>
 </Project>

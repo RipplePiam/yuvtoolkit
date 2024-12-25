@@ -34,16 +34,10 @@
     <ClCompile Include="YT_GLRenderer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_YT_GLRenderer.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_YT_GLRenderer.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="YT_GLRenderer.h">
+    <QtMoc Include="YT_GLRenderer.h">
       <Filter>Header Files</Filter>
-    </CustomBuild>
+    </QtMoc>
   </ItemGroup>
 </Project>
